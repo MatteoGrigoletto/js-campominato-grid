@@ -26,11 +26,20 @@ main{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    
 }
 .div-10{
     width: calc(100% / 10);
     height: calc(100% / 10);
+    border: 1px solid black;
+}
+.div-9{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid black;
+}
+.div-7{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 1px solid black;
 }
 form{
