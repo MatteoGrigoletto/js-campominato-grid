@@ -12,13 +12,9 @@ const Generator = btnGenerator.addEventListener(`click`, function(){
         cellBlock.classList.add(`div-10`)
         cellBlock.innerHTML = i;
         container.append(cellBlock);
-
+        cellBlock.addEventListener(`click`, function(){
+            this.classList.toggle(`bg-blue`);
+            console.log(`hai cliccato la casella `, this.innerHTML);
+        })
     }
-
-
-
-
-
-
-
 });
